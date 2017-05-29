@@ -6,19 +6,11 @@
 .sm-label {
     color: #bbb;
     font-size: 12px;
-    padding-top: 5px;
-}
-
-.sm-label-left {
-    color: #bbb;
-    font-size: 12px;
-    padding: 5px 5px 0 0;
 }
 
 .sm-value {
     text-align: right;
     min-width: 40px;
-    padding: 2px 5px 0 0;
 }
 
 .sm-status-label {
@@ -105,17 +97,25 @@
 /* style definition when 'compact-display' option is activated */
 
 .sm-title-compact {
-    font-size: 12px;
+    font-size: 14px;
+    color: #C5C5C5;
+    margin-right: 1em;
+    color: rgba(51, 51, 51, .8);
 }
 
 .sm-label-compact {
-    color: #bbb;
-    font-size: 11px;
+    color: #999999;
+    color: #BABDB6;
+    font-size: 14px;
+    padding: 0px 5px 0px 5px;
 } /* Bat, Net... units in menu items */
 
 .sm-value-compact {
-    font-size: 11px;
+    font-size: 14px;
     text-align: right;
+    padding: 0px 5px 0px 5px;
+    color: white;
+    color: #2E3436;
 } /* Values in menu items */
 
 .sm-status-label-compact {
@@ -126,10 +126,10 @@
 
 .sm-unit-label-compact,
 .sm-net-unit-label-compact {
-    color: #aaa;
-    padding: 9px 3px 0px 1px;
+    color: #515151;
+    padding: 6px 3px 0px 5px;
     text-align: right;
-    font-size: 7px;
+    font-size: 11px;
 } /* Bat, Net... units in text items */
 
 .sm-disk-unit-label-compact {
@@ -146,21 +146,21 @@
 } /* Cpu, Mem ... % sign in text items */
 
 .sm-temp-label-compact {
-    font-size: 10px;
-    color: #aaa;
-    padding: 3px 1px 0 1px;
+    font-size: 11px;
+    color: #515151;
+    padding: 7px 1px 0 1px;
 } /* Thermal °C sign in text items */
 
 .sm-status-value-compact {
-    padding:6px 0px 0 1px;
-    font-size:11px;
+    padding:5px 0px 0 1px;
+    font-size:12px;
     text-align: right;
     min-width:16px;
 } /* Cpu, Mem... value in text items */
 
 .sm-net-value-compact {
-    padding:6px 0px 0 1px;
-    font-size:11px;
+    padding:5px 0px 0 1px;
+    font-size:12px;
     text-align: right;
     min-width:24px;
 } /* Net value in text items */

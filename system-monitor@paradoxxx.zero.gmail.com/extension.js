@@ -1364,10 +1364,12 @@ const Disk = new Lang.Class({
     },
     create_menu_items: function () {
         return [new St.Label({style_class: Style.get('sm-value')}),
-            new St.Label({text: _('MiB/s'), style_class: Style.get('sm-label-left')}),
+            // new St.Label({text: _('MiB/s'), style_class: Style.get('sm-label-left')}),
+            new St.Label({text: _('MiB/s'), style_class: Style.get('sm-label')}),
             new St.Label({text: _('R'), style_class: Style.get('sm-label')}),
             new St.Label({style_class: Style.get('sm-value')}),
-            new St.Label({text: _('MiB/s'), style_class: Style.get('sm-label-left')}),
+            // new St.Label({text: _('MiB/s'), style_class: Style.get('sm-label-left')}),
+            new St.Label({text: _('MiB/s'), style_class: Style.get('sm-label')}),
             new St.Label({text: _('W'), style_class: Style.get('sm-label')})];
     },
 });
@@ -1733,7 +1735,7 @@ const Thermal = new Lang.Class({
     _init: function () {
         this.item_name = _('Thermal');
         this.temperature = '-- ';
-        this.fahrenheit_unit = Schema.get_boolean(this.elt + '-fahrenheit-unit');
+        this.fahrenheit_unit = false;
         this.display_error = true;
         this.parent()
         this.tip_format(this.temperature_symbol());

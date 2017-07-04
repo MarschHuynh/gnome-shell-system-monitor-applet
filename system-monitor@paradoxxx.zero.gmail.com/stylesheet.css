@@ -126,7 +126,7 @@
 
 .sm-unit-label-compact,
 .sm-net-unit-label-compact {
-    color: #515151;
+    color: #C8C8C8;
     padding: 6px 3px 0px 5px;
     text-align: right;
     font-size: 11px;
@@ -147,7 +147,7 @@
 
 .sm-temp-label-compact {
     font-size: 11px;
-    color: #515151;
+    color: #C8C8C8;
     padding: 7px 1px 0 1px;
 } /* Thermal °C sign in text items */
 

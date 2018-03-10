@@ -96,88 +96,117 @@
 
 /* style definition when 'compact-display' option is activated */
 
+
+/* Label in status bar -BEGIN -----------------------------------------------------------------------------*/
+
+.sm-unit-label-compact,
+.sm-net-unit-label-compact {
+    color: #323232;
+    text-align: right;
+    font-size: 10px;
+    padding: 9px 7px 0px 2px;
+    text-shadow: 0px 0px 1px #A0A0A0;
+} /* Bat, Net... units in text items */
+
+.sm-status-label-compact {
+    color: #323232;
+    font-size: 10px;
+    padding: 9px 7px 0px 2px;
+    text-shadow: 0px 0px 1px #A0A0A0;
+} /* names and Disk R and W signs in text items */
+
+.sm-disk-unit-label-compact {
+    color: #323232;
+    text-align: right;
+    font-size: 10px;
+    padding: 9px 7px 0px 2px;
+    text-shadow: 0px 0px 1px #A0A0A0;
+} /* Disk units in text items */
+
+.sm-perc-label-compact {
+    color: #323232;
+    font-size: 10px;
+    padding: 9px 7px 0px 2px;
+    text-shadow: 0px 0px 1px #A0A0A0;
+} /* Cpu, Mem ... % sign in text items */
+
+.sm-temp-label-compact {
+    font-size: 10px;
+    color: #323232;
+    padding: 9px 7px 0px 2px;
+    text-shadow: 0px 0px 1px #A0A0A0;
+} /* Thermal °C sign in text items */
+
+/* Label in status bar - END------------------------------------------------------------------------------*/
+
+
 .sm-title-compact {
     font-size: 14px;
     color: #C5C5C5;
     margin-right: 1em;
+    padding: 0px 5px 5px 5px;
     color: rgba(51, 51, 51, .8);
 }
-
-.sm-label-compact {
-    color: #999999;
-    color: #BABDB6;
-    font-size: 14px;
-    padding: 0px 5px 0px 5px;
-} /* Bat, Net... units in menu items */
 
 .sm-value-compact {
     font-size: 14px;
     text-align: right;
     padding: 0px 5px 0px 5px;
-    color: white;
-    color: #2E3436;
+    color: black;
 } /* Values in menu items */
 
-.sm-status-label-compact {
-    color: #bbb;
-    font-size: 8px;
-    padding: 2px 0px 0 0px;
-} /* names and Disk R and W signs in text items */
+.sm-label-compact {
+    color: #636363;
+    font-size: 12px;
+    padding: 2px 7px 0px 2px;
+} /* Bat, Net... units in menu items */
 
-.sm-unit-label-compact,
-.sm-net-unit-label-compact {
-    color: #C8C8C8;
-    padding: 6px 3px 0px 5px;
-    text-align: right;
-    font-size: 11px;
-} /* Bat, Net... units in text items */
 
-.sm-disk-unit-label-compact {
-    color: #aaa;
-    padding: 9px 3px 0px 0px;
-    text-align: right;
-    font-size: 7px;
-} /* Disk units in text items */
-
-.sm-perc-label-compact {
-    padding: 9px 3px 0 0px;
-    color: #aaa;
-    font-size: 8px;
-} /* Cpu, Mem ... % sign in text items */
-
-.sm-temp-label-compact {
-    font-size: 11px;
-    color: #C8C8C8;
-    padding: 7px 1px 0 1px;
-} /* Thermal °C sign in text items */
-
+/* Value install status bar BEGIN---------------------------------------------------------------------------- */
 .sm-status-value-compact {
     padding:5px 0px 0 1px;
-    font-size:12px;
+    font-size:13px;
     text-align: right;
     min-width:16px;
+    color: #232323;
+    font-weight: 500;
+    text-shadow: 0px 0px 2px #A0A0A0;
+    font-family: San francisco text;
 } /* Cpu, Mem... value in text items */
 
 .sm-net-value-compact {
     padding:5px 0px 0 1px;
-    font-size:12px;
+    font-size:13px;
     text-align: right;
     min-width:24px;
+    color: #232323;
+    font-weight: 500;
+    text-shadow: 0px 0px 2px #A0A0A0;
+    font-family: San francisco text;
 } /* Net value in text items */
 
 .sm-disk-value-compact {
     padding: 6px 1px 0 1px;
-    font-size: 11px;
+    font-size: 13px;
     text-align: right;
     min-width: 20px;
+    color: #232323;
+    font-weight: 500;
+    text-shadow: 0px 0px 2px #A0A0A0;
+    font-family: San francisco text;
 } /* Disk value in text items */
 
 .sm-big-status-value-compact {
     padding: 6px 0px 0px 1px;
-    font-size: 11px;
+    font-size: 13px;
     min-width: 38px;
     text-align: right;
+    color: #232323;
+    font-weight: 500;
+    text-shadow: 0px 0px 2px #A0A0A0;
+    font-family: San francisco text;
 } /* freq in text_items */
+/* Value install status bar END---------------------------------------------------------------------------- */
 
 .sm-chart-compact {
     padding: 0 2px;
